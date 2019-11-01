@@ -27,7 +27,7 @@ jobs:
     - name: Clone config
       run: |
         cd /home/runner/lede/
-        git clone https://github.com/wky0211/build-lede
+        git clone https://github.com/ksong008/build-lede
     - name: Build
       run: | 
         cd /home/runner/lede 
