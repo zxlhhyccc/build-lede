@@ -27,7 +27,7 @@ jobs:
     - name: Clone config
       run: |
         cd /home/runner/lede/
-        wget https://raw.githubusercontent.com/wky0211/build-lede/master/.config
+        wget https://raw.githubusercontent.com/hxhwing0522/build-lede/master/.config
     - name: Build
       run: | 
         cd /home/runner/lede 
